@@ -2,8 +2,7 @@ import os
 import time
 
 # Путь к директории с файлами
-directory = 'D:\Yeah Buddy\Pi\Farpost-Jupiter\data_slices\\'  # Замените на ваш путь
-
+directory = 'D:\Yeah Buddy\Pi\Farpost-Jupiter\data_slices\\'  
 def cleanup_old_files():
     current_time = time.time()
     for filename in os.listdir(directory):
